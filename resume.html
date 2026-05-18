@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume | Harry Portfolio</title>
+    <title>Resume | Data Analytics Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -39,29 +39,51 @@
 
         <section>
             <div class="container">
+                <div style="text-align: center; margin-bottom: 50px;">
+                    <h2 style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 10px;">Harry Rathod</h2>
+                    <p style="font-size: 1.2rem; font-weight: 500; color: var(--text-main); margin-bottom: 20px;">MIS Executive | Data-Driven Professional</p>
+                </div>
+
+                <div style="margin-bottom: 50px; background: var(--bg-alt); padding: 30px; border-radius: 12px; border: 1px solid var(--border-color);">
+                    <h3 style="margin-bottom: 15px;"><i class="fas fa-user"></i> Professional Summary</h3>
+                    <p style="color: var(--text-muted); line-height: 1.6;">Detail-oriented BCA graduate and former developer with a strong technical foundation in data management, database querying, and reporting. Adept at turning complex datasets into structured, actionable MIS reports. Currently upskilling in Data Analytics to implement advanced business intelligence and automation in day-to-day operations.</p>
+                </div>
+
+                <div style="margin-bottom: 50px;">
+                    <h3 style="margin-bottom: 25px;"><i class="fas fa-tools"></i> Core Skills</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                        <div class="card" style="padding: 20px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-alt);">
+                            <h4 style="margin-bottom: 10px; color: var(--primary-color);">Data & Reporting</h4>
+                            <p style="color: var(--text-muted); font-size: 0.95rem;">Advanced Excel (Pivots, Advanced Formulas, Power Query), MIS Reporting, Data Validation.</p>
+                        </div>
+                        <div class="card" style="padding: 20px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-alt);">
+                            <h4 style="margin-bottom: 10px; color: var(--primary-color);">Databases & Tech</h4>
+                            <p style="color: var(--text-muted); font-size: 0.95rem;">SQL (Data Extraction, Joins, Aggregations), Logical Programming, Data Structures.</p>
+                        </div>
+                        <div class="card" style="padding: 20px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-alt);">
+                            <h4 style="margin-bottom: 10px; color: var(--primary-color);">Visualization & BI</h4>
+                            <p style="color: var(--text-muted); font-size: 0.95rem;">Power BI (Interactive Dashboards, Data Modeling).</p>
+                        </div>
+                        <div class="card" style="padding: 20px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-alt);">
+                            <h4 style="margin-bottom: 10px; color: var(--primary-color);">Soft Skills</h4>
+                            <p style="color: var(--text-muted); font-size: 0.95rem;">Analytical Thinking, Problem Solving, Attention to Detail, Cross-functional Communication.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="resume-grid">
                 <!-- Experience Column -->
                 <div class="resume-column">
                     <h3><i class="fas fa-briefcase"></i> Professional Experience</h3>
                     <div class="timeline">
                         <div class="timeline-item">
-                            <h4>TYPO3 Web Developer</h4>
-                            <p class="company">Tech Solutions Inc.</p>
-                            <p class="date">2023 - 2025</p>
+                            <h4>TYPO3 Developer</h4>
+                            <p class="company"><a href="https://www.aashro.com/" target="_blank" style="color: inherit; text-decoration: underline;">Aashro Tech</a></p>
+                            <p class="date">01/06/2024 - 31/05/2025</p>
                             <ul style="padding-left: 20px; color: var(--text-muted); margin-top: 10px;">
-                                <li style="margin-bottom: 8px;">Engineered and maintained enterprise-level web applications utilizing TYPO3 CMS, ensuring high performance, security, and scalability.</li>
-                                <li style="margin-bottom: 8px;">Developed custom TYPO3 extensions using Extbase and Fluid to meet complex client requirements and streamline business processes.</li>
-                                <li style="margin-bottom: 8px;">Optimized database queries and implemented caching strategies, improving page load speeds by over 30%.</li>
-                                <li>Collaborated closely with design and marketing teams to translate UI/UX wireframes into responsive, pixel-perfect web pages.</li>
-                            </ul>
-                        </div>
-                        <div class="timeline-item">
-                            <h4>Junior Web Developer</h4>
-                            <p class="company">Creative Digital Agency</p>
-                            <p class="date">2022 - 2023</p>
-                            <ul style="padding-left: 20px; color: var(--text-muted); margin-top: 10px;">
-                                <li style="margin-bottom: 8px;">Assisted in the development of responsive websites using HTML, CSS, and JavaScript.</li>
-                                <li>Managed content updates and performed basic data entry and validation tasks for client databases, ensuring data integrity.</li>
+                                <li style="margin-bottom: 8px;">Managed backend structures and web content architectures, ensuring smooth data flow and system stability.</li>
+                                <li style="margin-bottom: 8px;">Collaborated with cross-functional teams to debug technical issues and optimize website logic.</li>
+                                <li style="margin-bottom: 8px;">Developed a strong eye for detail and data integrity by managing backend content databases.</li>
                             </ul>
                         </div>
                     </div>
@@ -69,26 +91,19 @@
 
                 <!-- Education Column -->
                 <div class="resume-column">
-                    <h3><i class="fas fa-graduation-cap"></i> Education & Certifications</h3>
+                    <h3><i class="fas fa-graduation-cap"></i> Education & Credentials</h3>
                     <div class="timeline">
                         <div class="timeline-item">
-                            <h4>Master Excel with AI Certification</h4>
-                            <p class="company">Online Learning Platform</p>
-                            <p class="date">2025</p>
-                            <p>Advanced training in utilizing artificial intelligence to enhance data processing, automate repetitive tasks, and perform complex data analysis within Microsoft Excel.</p>
-                        </div>
-                        <div class="timeline-item">
                             <h4>Bachelor of Computer Applications (BCA)</h4>
-                            <p class="company">University Name</p>
-                            <p class="date">Graduated 2022</p>
-                            <p>Comprehensive study of computer science principles, software development, database management systems (SQL), and data structures.</p>
+                            <p class="company">Maharaja Krishnakumarsinhji Bhavnagar University / Swami Sahajanand College</p>
+                            <p class="date">Graduated 2024</p>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div style="text-align: center; margin-top: 60px; display: flex; justify-content: center; gap: 20px;">
-                <a href="#" class="btn btn-primary"><i class="fas fa-download" style="margin-right: 8px;"></i> Download Full PDF Resume</a>
+                <a href="./Hardik_Rathod_Resume.pdf" download="Hardik_Rathod_Resume.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-download" style="margin-right: 8px;"></i> Download Full PDF Resume</a>
                 <a href="contact.html" class="btn btn-outline">Contact Me</a>
             </div>
         </div>
@@ -98,7 +113,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Data Analytics Portfolio. Built with clean code.</p>
+            <p>&copy; 2026 Data Analytics Portfolio &middot; Designed &amp; Developed by Harry Rathod</p>
         </div>
     </footer>
 
